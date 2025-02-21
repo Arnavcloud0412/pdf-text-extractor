@@ -12,3 +12,6 @@ A **Streamlit** app that extracts text from scanned PDFs using **Tesseract OCR**
    ```bash
    git clone https://github.com/your-username/pdf-text-extractor.git
    cd pdf-text-extractor
+2. pip install -r requirements.txt
+
+3. streamlit run app.py
