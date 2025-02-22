@@ -4,8 +4,8 @@ from pdf2image import convert_from_path
 import os
 
 # Configure paths (Adjust for your system)
-pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
-poppler_path = r"E:\poppler-24.08.0\Library\bin"  # Change this to your Poppler bin path
+pytesseract.pytesseract.tesseract_cmd = "Path to your tesseract.exe"
+poppler_path = "Path to your proppler bin"  # Change this to your Poppler bin path
 
 def extract_text_from_pdf(pdf_path):
     """Extract text from a scanned PDF using OCR"""
